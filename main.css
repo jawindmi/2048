@@ -5,32 +5,33 @@
 	--bg4: #ede0c8;
 	--co4: var(--co2);
 
-	--bg8: #f9f6f2;
-	--co8: #f2b179;
+	--co8: #f9f6f2;
+	--bg8: #f2b179;
 
-	--bg16: var(--bg8);
-	--co16: #f59563;
+	--co16: var(--co8);
+	--bg16: #f59563;
 
-	--bg32: var(--bg8);
-	--co32: #f67cf5;
+	--co32: var(--co8);
+	/*off*/
+	--bg32: #f67cf5;
 
-	--bg64: var(--bg8);
-	--co64: #f65e3b;
+	--co64: var(--co8);
+	--bg64: #f65e3b;
 
-	--bg128: var(--bg8);
-	--co128: #edcf72;
+	--co128: var(--co8);
+	--bg128: #edcf72;
 
-	--bg256: var(--bg8);
-	--co256: #edcc61;
+	--co256: var(--co8);
+	--bg256: #edcc61;
 
-	--bg512: var(--bg8);
-	--co512: #edc850;
+	--co512: var(--co8);
+	--bg512: #edc850;
 
-	--bg1024: var(--bg8);
-	--co1024: #edc53f;
+	--co1024: var(--co8);
+	--bg1024: #edc53f;
 
-	--bg2048: var(--bg8);
-	--co2048: #edc22e;
+	--co2048: var(--co8);
+	--bg2048: #edc22e;
 
 }
 
@@ -60,7 +61,7 @@ body{
 	margin: 1.5%;
 	padding: 0px;
 	float: left;
-	background-color: rgba(238, 228, 218, 0.35);
+	/*background-color: rgba(238, 228, 218, 0.35);*/
 	border-radius: 4px;
 	text-align: center;
 	font-size: 3em;
@@ -76,7 +77,7 @@ body{
 }
 
 .val0{
-	background-color: rgba(238, 228, 218, 0.35);
+	
 }
 .val2{
 	background-color:var(--bg2);
@@ -123,7 +124,8 @@ body{
 	color:var(--co2048);
 }
 .cell.staticBG{
+	background-color: rgba(238, 228, 218, 0.35);
 	position: relative;
 	top: -100%;
-	z-index: 50;
+	z-index: 0 !important;
 }
